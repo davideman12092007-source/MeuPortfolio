@@ -8,7 +8,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="imagens/css3-logo.png">
+  <link href="imagens/html5 logo.png">
+  <link href="imagens/Git logo.png">
+  <link href="imagens/github logo.png">
 </head>
 <body>
 
@@ -18,9 +22,7 @@
   <nav class="nav">
     <a href="#inicio">Início</a>
     <a href="#sobre">Sobre</a>
-    <a href="#servicos">Serviços</a>
     <a href="#projetos">Projetos</a>
-    <a href="#processo">Processo</a>
     <a href="#contato">Contato</a>
   </nav>
 </header>
@@ -29,98 +31,68 @@
   <section id="inicio" class="hero section">
     <div class="availability"><span></span> DISPONÍVEL PARA PROJETOS</div>
     <p class="eyebrow">ESTUDANTE DE PROGRAMAÇÃO · JOVEM TECH</p>
-    <h1>Transformo ideias em<br><em>sistemas reais.</em></h1>
+    <h1>Transformo projetos em<br><em>sistemas reais.</em></h1>
     <p class="hero-text">
-      Desenvolvimento de sistemas web, APIs, SaaS e automações
+      Desenvolvo sistemas web, sites, APIs, e automações
       com foco em performance, organização e resultado.
     </p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="#contato">Solicitar orçamento <span>↗</span></a>
       <a class="btn btn-secondary" href="#projetos">Ver projetos</a>
     </div>
+    
+    <div class="texto-competencias">
+        <p> <strong>Competencias:</strong></p> 
+    </div>
 
-    <div class="stack-strip">
-      <span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>Git</span>
+    <div class="competencias">
+      <img src="imagens/logo js.png" alt="js logo">
+      <img src="imagens/html5 logo.png" alt="html5 logo">
+      <img src="imagens/css3-logo.png" alt="css3 logo">
+      <img src="imagens/Git logo.png" alt="Git logo">
+      <img src="imagens/github logo.png" alt="github logo">
     </div>
   </section>
 
   <section id="sobre" class="section about">
     <div class="section-number">01 / SOBRE MIM</div>
-    <div class="section-content two-col">
-      <div>
-        <h2>Mais do que código.<br><em>Problemas resolvidos.</em></h2>
-      </div>
-      <div class="about-copy">
-        <p>Me chamo <strong>David Emmanuel Silveira silva</strong>, pretendo me aprofundar na carreira de back-end altualmente e mais tarde me tornar um desenvolvedor Full Stack focado em criar produtos digitais e sistemas para resolução de problemas reais de negócio.</p>
-
-        <div class="mini-info">
-          <div><span>ATUAÇÃO</span><b>Remoto · Brasil e exterior</b></div>
-          <div><span>MODELO</span><b>Freelance · PJ · Consultoria</b></div>
-          <div><span>FOCO</span><b>Sistemas · SaaS · APIs</b></div>
+        <div class="imagem-eu">
+            <img src="imagens/imagem exemplo.png" alt="imagem exemplo">
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="servicos" class="section services">
-    <div class="section-number">02 / SERVIÇOS</div>
-    <div class="section-content">
-      <p class="eyebrow">O QUE EU ENTREGO</p>
-      <h2>Soluções para tirar seu<br><em>projeto do papel.</em></h2>
-
-      <div class="service-grid">
-        <article class="service-card"><small>01 / 06</small><h3>Sistemas Web</h3><p>Sistemas corporativos sob medida, com arquitetura preparada para crescer.</p><span>Laravel · PHP · Java</span></article>
-        <article class="service-card"><small>02 / 06</small><h3>Plataformas SaaS</h3><p>Produtos multiusuário com autenticação, permissões, planos e dashboards.</p><span>Vue · Laravel · PostgreSQL</span></article>
-        <article class="service-card"><small>03 / 06</small><h3>APIs & Integrações</h3><p>Integrações entre ERPs, CRMs, gateways e sistemas legados.</p><span>REST · Node · Java</span></article>
-        <article class="service-card"><small>04 / 06</small><h3>Automações</h3><p>Automatização de processos repetitivos para reduzir trabalho manual.</p><span>APIs · BPM · Scripts</span></article>
-        <article class="service-card"><small>05 / 06</small><h3>Refatoração</h3><p>Modernização incremental de sistemas antigos sem interromper a operação.</p><span>Legacy · Vue · Docker</span></article>
-        <article class="service-card"><small>06 / 06</small><h3>Cloud & DevOps</h3><p>Deploy, containers e infraestrutura para ambientes de produção.</p><span>AWS · Docker · CI/CD</span></article>
-      </div>
+        <div class="about-copy">
+            <p>Me chamo <strong>David Emmanuel Silveira silva</strong>, pretendo me aprofundar na carreira de back-end altualmente e mais tarde me tornar um desenvolvedor Full Stack focado em criar produtos digitais e sistemas para resolução de problemas reais de negócio.</p>
+        </div>
     </div>
   </section>
 
   <section id="projetos" class="section projects">
-    <div class="section-number">03 / PROJETOS</div>
-    <div class="section-content">
-      <p class="eyebrow">PROJETOS EM DESTAQUE</p>
-      <h2>Projetos que viraram<br><em>produtos reais.</em></h2>
+    <div class="section-number">02 / PROJETOS</div>
+        <div class="section-content">
+            <p class="eyebrow">PROJETOS EM DESTAQUE</p>
+            <h2>Projetos que viraram<br><em>produtos reais.</em></h2>
 
-      <div class="project-list">
-        <article class="project">
-          <div class="project-meta"><span>01</span><span>SAAS</span></div>
-          <div><h3>Projeto Atlas</h3><p>Plataforma de gestão para empresas, com dashboard, usuários, permissões e relatórios.</p><div class="tags"><span>Vue 3</span><span>Laravel</span><span>PostgreSQL</span></div></div>
-          <a href="#" aria-label="Ver projeto">↗</a>
+            <div class="project-list">
+                <article class="project">
+                <div class="project-meta"><span>01</span><span>SAAS</span></div>
+                <div><h3>Projeto Atlas</h3><p>Plataforma de gestão para empresas, com dashboard, usuários, permissões e relatórios.</p><div class="tags"><span>Vue 3</span><span>Laravel</span><span>PostgreSQL</span></div></div>
+                <a href="#" aria-label="Ver projeto">↗</a>
         </article>
-        <article class="project">
-          <div class="project-meta"><span>02</span><span>E-COMMERCE</span></div>
-          <div><h3>Projeto Market</h3><p>Plataforma de vendas com catálogo, pedidos, painel administrativo e integração de pagamentos.</p><div class="tags"><span>Laravel</span><span>Vue</span><span>Docker</span></div></div>
-          <a href="#" aria-label="Ver projeto">↗</a>
+            <article class="project">
+                <div class="project-meta"><span>02</span><span>E-COMMERCE</span></div>
+                <div><h3>Projeto Market</h3><p>Plataforma de vendas com catálogo, pedidos, painel administrativo e integração de pagamentos.</p><div class="tags"><span>Laravel</span><span>Vue</span><span>Docker</span></div></div>
+                <a href="#" aria-label="Ver projeto">↗</a>
         </article>
-        <article class="project">
-          <div class="project-meta"><span>03</span><span>API</span></div>
-          <div><h3>Projeto Connect</h3><p>Camada de APIs para conectar diferentes sistemas e automatizar o fluxo de dados.</p><div class="tags"><span>Node.js</span><span>REST</span><span>AWS</span></div></div>
-          <a href="#" aria-label="Ver projeto">↗</a>
+            <article class="project">
+                <div class="project-meta"><span>03</span><span>API</span></div>
+                <div><h3>Projeto Connect</h3><p>Camada de APIs para conectar diferentes sistemas e automatizar o fluxo de dados.</p><div class="tags"><span>Node.js</span><span>REST</span><span>AWS</span></div></div>
+                <a href="#" aria-label="Ver projeto">↗</a>
         </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section faq">
-    <div class="section-number">05 / FAQ</div>
-    <div class="section-content">
-      <p class="eyebrow">DÚVIDAS FREQUENTES</p>
-      <h2>Antes de começar?</h2>
-      <div class="faq-list">
-        <details><summary>Como funciona a contratação?</summary><p>Começamos com uma conversa para entender o projeto. Depois, envio uma proposta com escopo, prazo e valor.</p></details>
-        <details><summary>Você trabalha por projeto fechado?</summary><p>Sim. Também posso trabalhar por hora ou em modelo mensal, dependendo do projeto.</p></details>
-        <details><summary>Você cria o sistema do zero?</summary><p>Sim. Posso cuidar da arquitetura, desenvolvimento, banco de dados, integrações e publicação.</p></details>
-        <details><summary>O projeto pode ser remoto?</summary><p>Sim. Todo o processo pode ser conduzido remotamente.</p></details>
-      </div>
-    </div>
+            </div>
+        </div>
   </section>
 
   <section id="contato" class="contact">
-    <div class="section-number">06 / CONTATO</div>
+    <div class="section-number">03 / CONTATO</div>
     <div>
       <p class="eyebrow">VAMOS CONVERSAR</p>
       <h2>Tem um projeto?<br><em>Vamos construir.</em></h2>
@@ -131,9 +103,7 @@
 </main>
 
 <footer>
-  <div class="logo">SEU<span>.</span>DEV</div>
-  <p>Desenvolvimento de software · 2026</p>
-  <div class="footer-links"><a href="#inicio">Início</a><a href="#servicos">Serviços</a><a href="#contato">Contato</a></div>
+  <p>Desenvolvido por <strong>David Emmanuel Silveira silva</strong> em 2026</p>
 </footer>
 
 <script src="script.js"></script>
