@@ -515,12 +515,53 @@ footer{
   opacity: 0;
   animation: fadeUp 0.8s ease 0.5s forwards;
 }
+.project-list{
+    display: grid;
+}
 
-.card {width: 18rem;}
+.card1 {
+    width: 18rem;
+    display: grid;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 
-.card img {
+.card2 {
+    width: 18rem;
+    display: grid;
+    margin-left: 300px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card3 {
+    width: 18rem;
+    display: grid;
+    margin-right: 300px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+.card1 img, .card2 img, .card3 img {
   width: 100%;
   height: auto;
   border-radius: 8px;
   margin-bottom: 10px;
+}
+
+
+.contato-logo img {
+    display: flex;
+    margin-top: 25px;
+    height: 70px;
+    width: 70px;
+    border-radius: 20%;
+    filter: grayscale(100%);
+}
+
+.contato-logo img:hover {
+    transform: scale(1.2);
+    filter: grayscale(0%);
 }
