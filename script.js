@@ -31,3 +31,20 @@ fadeElements.forEach((element) => {
   element.classList.add("fade-in");
   observer.observe(element);
 });
+
+const contactForm = document.getElementById("contactForm");
+const formSuccess = document.getElementById("formSuccess");
+
+contactForm.addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    formSuccess.classList.add("show");
+
+    contactForm.reset();
+
+    setTimeout(() => {
+        formSuccess.classList.remove("show");
+    }, 5000);
+
+});
