@@ -122,13 +122,73 @@
       <p class="eyebrow">VAMOS CONVERSAR?</p>
       <h2>Precisando de um dev?<br><em>Estou a disposição.</em></h2>
       <p>Descreva  sua ideia e entre em contato para conversarmos sobre o projeto, prazo e possibilidades!</p>
-      <a class="btn btn-primary" href="https://wa.me/5598981298264" target="_blank">Falar pelo WhatsApp ↗</a>
-      <div class="contato-logo">
-        <a href="https://github.com/davideman12092007-source" target="_blank">
-          <img src="imagens/github logo.png" alt="github logo">
-        </a>
-      </div>
     </div>
+
+    <div class="contact-form-area">
+
+        <form class="contact-form" id="contactForm">
+
+            <div class="form-group">
+                <label for="nome">Nome</label>
+
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    placeholder="Seu nome"
+                    required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="seuemail@email.com"
+                    required>
+            </div>
+
+            <div class="form-group">
+                <label for="mensagem">Descrição do projeto</label>
+
+                <textarea
+                    id="mensagem"
+                    name="mensagem"
+                    placeholder="Descreva a sua ideia..."
+                    rows="6"
+                    required> </textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+                Enviar mensagem ↗
+            </button>
+
+            <p class="form-success" id="formSuccess">
+                Mensagem enviada com sucesso! ✓
+            </p>
+
+        </form>
+
+        <div class="contato-logo">
+
+            <a href="https://github.com/davideman12092007-source" target="_blank">
+              <img src="imagens/github logo.png" alt="GitHub logo">
+            </a>
+
+            <a href="https://wa.me/5598981298264" target="_blank">
+              <img src="imagens/whatsapp.png" alt="WhatsApp logo">
+            </a>
+
+            <a href="" target="_blank">
+              <img src="imagens/linkedin logo.png" alt="linkedin logo">
+            </a>
+        </div>
+
+    </div>
+
+
   </section>
 </main>
 
